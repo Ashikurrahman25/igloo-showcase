@@ -55,7 +55,7 @@
             </div>
         </div>
     </div>
-    <script src="Build/Showcase Demo.loader.js"></script>
+    <script src="Build/igloo-showcase.loader.js"></script>
     <script>
             var container = document.querySelector("#unity-container");
             var canvas = document.querySelector("#unity-canvas");
@@ -73,9 +73,9 @@
                 document.getElementById("startWebcamDiv").style.display = "none";
 
                 createUnityInstance(document.querySelector("#unity-canvas"), {
-                    dataUrl: "Build/Showcase Demo.data",
-                    frameworkUrl: "Build/Showcase Demo.framework.js",
-                    codeUrl: "Build/Showcase Demo.wasm",
+                    dataUrl: "Build/igloo-showcase.data",
+                    frameworkUrl: "Build/igloo-showcase.framework.js",
+                    codeUrl: "Build/igloo-showcase.wasm",
                     streamingAssetsUrl: "StreamingAssets",
                     companyName: "GhostInteractive",
                     productName: "Igloo Product Showcasing",
